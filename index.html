@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Elise PELLER Portfolio</title>
+		<link rel="StyleSheet" type="text/css" href="site css.css"/>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<p><font color="#EF795E"><a id=shadow>Elise </a> PELLER Portfolio</p>
+			</h1>
+		</header>
+		<nav id='menu'>
+		  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+		  <ul>
+			<li><a href='index.html'>Présentation</a></li>
+			<li><a href='CV.html'>CV</a></li>
+			<li><a class='dropdown-arrow' href='BookArtistique.html'>Book Artistique</a>
+			  <ul class='sub-menus'>
+				<li><a href='BookArtistique.html#Book Pj1'#a_page1>Projet décoration intérieur salon</a></li>
+				 
+				<li><a href='BookArtistique.html#Book Pj2'>Projet affiche pour une fête de la cuisine</a></li>
+				  
+				<li><a href='BookArtistique.html#Book Pj3'>Projet affiche pour un festival de cinéma</a></li>
+			  </ul>
+			</li>
+			<li><a class='dropdown-arrow' href='RéaVideo.html'>Réalisations vidéos</a>
+			  <ul class='sub-menus'>
+				<li><a href='RéaVideo.html#Vidéo 1'>publicité courte pour un bob</a></li>
+				  
+				<li><a href='RéaVideo.html#Vidéo 2'>court-métrage de fin d'étude première version</a></li>
+				  
+				 <li><a href='RéaVideo.html#Vidéo 3'>court-métrage de fin d'étude version finale</a></li>
+			  </ul>
+			</li>
+			<li><a href='Contacts.html'>Contact</a></li>
+		  </ul>
+		</nav>
+		<div id=home>
+			<div id=image>
+				<img id=elise src="images/elise.png"/>
+			</div>
+			<div id=bulle>
+				<h3>
+					<p><font color="#EF795E"> Courte présentation de moi </p> 
+				</h3>
+			</div>
+		</div>
+		<div id=ligne>
+		
+		</div>
+		
+		<div class="image_fond1">
+			<object data="SVG/fond1.svg" id="fond1" type="image/svg+xml"></object>
+			<div class="text_fond1">
+				<h2>
+					<p><font color="#DE8C49">Retrouver mon CV ici</p>
+				</h2>
+			</div>
+			<div id=img_cv>
+				  <a id=a_CV href='CV.html'><img id=image_CV src="images/image_cv.png"/></a>
+			</div>
+
+		</div>
+		<h2>
+			<p><font color="#EF795E"><a id=shadow>Mon Book Artistique</a></p>
+		</h2>
+		<div id=livre name="Book Pres">
+			<div id=feuille0>
+				<a id=a_page0 href='site.html#Book Pres' onclick="return false;"><img id=page0 src="images/page0.png"/></a>
+			</div>
+			<div id=feuille1>
+				<a id=a_page1 href='BookArtistique.html#Book Pj1'><img id=page1 src="images/page1.png" /></a>
+			</div>
+		</div>
+		<div id=gr_but>
+			<svg class=but_nav id=but_l onclick="clickl()" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+			</svg>	
+			<svg class=but_nav id=but_r onclick="clickr()" xmlns="http://www.w3.org/2000/svg" width="32" height="32" 		fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+  				<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+			</svg>
+		</div>
+		<div class="image_fond2">
+			<object data="SVG/fond2.svg" id="fond2" type="image/svg+xml"></object>
+			<div class="text_fond2">
+				<h1><p><font color="#EF795E">Mes Réalisations Vidéo</h1>
+			</div>
+			<div id=video1>
+				<div id=pj_vdo1>
+					<p> <a href="RéaVideo.html#Vidéo 1" font color="#FACBB6"> Publicitée courte</a> </p>
+				</div>
+				<div id=pj_vdo2>
+					<p> <a href="RéaVideo.html#Vidéo 2" font color="#FACBB6"> Court-métrage fin de licence </a> </p>
+				</div>
+			</div>
+		 		
+		</div>
+		<h2>
+			<p><font color="#EF795E">Pour me contacter</p>
+		</h2>
+		<div id=contacts>
+			<p><a href="Contacts.html">Contact</a></p>
+		</div>
+		<footer>
+			<p> <a href="#top"> Haut de page </a> </p>
+		</footer>
+	</body>
+			<script src="js/main.js"></script>
+</html>
